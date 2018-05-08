@@ -1,0 +1,21 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging /home/daniil/workspace/scala/c/target/scala-2.11/consumer_2.11-0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KafkaProducer$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/daniil/workspace/scala/c/target/scala-2.11/classes/KafkaProducer$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KafkaConsumer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/daniil/workspace/scala/c/target/scala-2.11/classes/KafkaConsumer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KafkaProducer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/daniil/workspace/scala/c/target/scala-2.11/classes/KafkaProducer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KafkaProducer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/daniil/workspace/scala/c/target/scala-2.11/classes/KafkaProducer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KafkaConsumer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/daniil/workspace/scala/c/target/scala-2.11/classes/KafkaConsumer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KafkaConsumer$$anon$2$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/daniil/workspace/scala/c/target/scala-2.11/classes/KafkaConsumer$$anon$2$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KafkaConsumer$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/daniil/workspace/scala/c/target/scala-2.11/classes/KafkaConsumer$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KafkaConsumer$$anon$2$$anonfun$createSerializer$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/daniil/workspace/scala/c/target/scala-2.11/classes/KafkaConsumer$$anon$2$$anonfun$createSerializer$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KafkaConsumer$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/daniil/workspace/scala/c/target/scala-2.11/classes/KafkaConsumer$$anonfun$1.class[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m
