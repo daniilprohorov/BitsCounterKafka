@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Implementation-Title: flink-shaded-netty-4
+Implementation-Version: 4.0.27.Final-2.0
+Archiver-Version: Plexus Archiver
+Built-By: Zento
+Specification-Vendor: The Apache Software Foundation
+Specification-Title: flink-shaded-netty-4
+Implementation-Vendor-Id: org.apache.flink
+Implementation-Vendor: The Apache Software Foundation
+Created-By: Apache Maven 3.0.5
+Build-Jdk: 1.8.0_111
+Specification-Version: 0.0
+Implementation-URL: http://flink.apache.org/flink-shaded-netty
+

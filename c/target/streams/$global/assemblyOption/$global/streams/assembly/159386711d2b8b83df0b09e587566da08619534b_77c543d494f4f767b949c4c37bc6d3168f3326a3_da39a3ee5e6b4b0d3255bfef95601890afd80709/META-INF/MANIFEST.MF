@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Built-By: cziegeler
+Created-By: Apache Maven Bundle Plugin
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Import-Package: javax.jcr,javax.jcr.nodetype,org.apache.sling.commons.
+ json;version="2.0",org.apache.sling.commons.json.http;version="2.0",o
+ rg.apache.sling.commons.json.io;version="2.0",org.apache.sling.common
+ s.json.jcr;version="2.0",org.apache.sling.commons.json.util;version="
+ 2.0",org.apache.sling.commons.json.xml;version="2.0"
+Bnd-LastModified: 1292495158332
+Export-Package: org.apache.sling.commons.json.http;uses:="org.apache.s
+ ling.commons.json";version="2.0.4",org.apache.sling.commons.json.util
+ ;uses:="org.apache.sling.commons.json";version="2.0.4",org.apache.sli
+ ng.commons.json;version="2.0.4",org.apache.sling.commons.json.xml;use
+ s:="org.apache.sling.commons.json";version="2.0.4",org.apache.sling.c
+ ommons.json.io;uses:="org.apache.sling.commons.json";version="2.0.4",
+ org.apache.sling.commons.json.jcr;uses:="org.apache.sling.commons.jso
+ n,javax.jcr.nodetype,org.apache.sling.commons.json.io,javax.jcr";vers
+ ion="2.0.4"
+Bundle-Version: 2.0.6
+Bundle-Name: Apache Sling JSON Library
+Bundle-Description: Apache Sling JSON Library
+Build-Jdk: 1.5.0_26
+Bundle-DocURL: http://sling.apache.org
+Bundle-Vendor: The Apache Software Foundation
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.apache.sling.commons.json
+Tool: Bnd-0.0.357
+Bundle-Category: sling
+

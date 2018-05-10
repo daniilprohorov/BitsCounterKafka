@@ -1,4 +1,4 @@
-[0m[[0m[33mwarn[0m] [0m[0m/home/daniil/workspace/scala/BitsCounterKafka/p/Job.scala:3:43: imported `KafkaProducer' is permanently hidden by definition of object KafkaProducer[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniil/workspace/scala/BitsCounterKafka/p/Producer.scala:9:43: imported `KafkaProducer' is permanently hidden by definition of object KafkaProducer[0m
 [0m[[0m[33mwarn[0m] [0m[0mimport org.apache.kafka.clients.producer.{KafkaProducer, ProducerRecord}[0m
 [0m[[0m[33mwarn[0m] [0m[0m                                          ^[0m
 [0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

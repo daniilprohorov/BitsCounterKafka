@@ -1,0 +1,21 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+flink-shaded-netty-4
+
+
+From: 'The Netty Project' (http://netty.io/)
+  - Netty/All-in-One (http://netty.io/netty-all/) io.netty:netty-all:jar:4.0.27.Final
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+
+From: 'tv.cntt'
+  - jauter (https://github.com/sinetja/jauter) tv.cntt:jauter:jar:1.7
+    License: MIT  (https://github.com/sinetja/jauter/blob/master/MIT-LICENSE)
+  - netty-router (https://github.com/sinetja/netty-router) tv.cntt:netty-router:jar:1.10
+    License: MIT  (https://github.com/sinetja/netty-router/blob/master/MIT-LICENSE)
+
+
+
+

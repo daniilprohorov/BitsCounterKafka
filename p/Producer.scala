@@ -24,7 +24,7 @@ object KafkaProducer extends App {
 
   val rnd = new Random()
   val producer = new KafkaProducer[String,String](props)
-  var key  = 0
+  var key = 0
   
   /** loop cycle */
   def whl(){
@@ -33,8 +33,8 @@ object KafkaProducer extends App {
     /** generate 0 or 1 */
     val bit = rnd.nextInt(2)
     /** Send bit with key to topic */
-    producer.send(new ProducerRecord(topic, key.toString, bit.toString))
-    key =  key + 1
+    producer.send(new ProducerRecord(topic, bit.toString))
+    //key +=  key + 1
 
     /** Честно говоря особо не знаю как сделать нормальное прерывание
      *  в консольном приложении, поэтому было реализовано как-то так:

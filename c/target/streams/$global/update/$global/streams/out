@@ -1,28 +1,28 @@
 [0m[[0m[0minfo[0m] [0m[0mUpdating ...[0m
-[0m[[0m[0mdebug[0m] [0m[0m:: resolving dependencies :: org.example#consumer_2.11;0.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: resolving dependencies :: daniil#consumer_2.11;0.1[0m
 [0m[[0m[0mdebug[0m] [0m[0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool][0m
 [0m[[0m[0mdebug[0m] [0m[0m	validate = true[0m
 [0m[[0m[0mdebug[0m] [0m[0m	refresh = false[0m
 [0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'compile'[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.example#consumer_2.11;0.1 [compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for daniil#consumer_2.11;0.1 [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.5[0m
 [0m[[0m[0mdebug[0m] [0m[0m	found org.scala-lang#scala-library;2.11.5 in sbt-chain[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[2.11.5] org.scala-lang#scala-library;2.11.5[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.apache.flink#flink-streaming-scala_2.11;1.4.2 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.apache.flink#flink-streaming-scala_2.11;1.4.2 [compile->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.apache.flink#flink-streaming-scala_2.11;1.4.2 {compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.apache.flink#flink-streaming-scala_2.11;1.4.2[0m
 [0m[[0m[0mdebug[0m] [0m[0m	found org.apache.flink#flink-streaming-scala_2.11;1.4.2 in sbt-chain[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.apache.flink#flink-streaming-scala_2.11;1.4.2 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.apache.flink#flink-streaming-scala_2.11;1.4.2 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.apache.flink#flink-streaming-scala_2.11;1.4.2 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.apache.flink#flink-streaming-scala_2.11;1.4.2 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.11.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
@@ -2017,21 +2017,21 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.flink#flink-streaming-scala_2.11;1.4.2->com.google.code.findbugs#jsr305;1.3.9 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.flink#flink-streaming-scala_2.11;1.4.2->org.apache.flink#force-shading;1.4.2 [runtime->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.flink#flink-streaming-scala_2.11;1.4.2->org.apache.flink#force-shading;1.4.2 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.apache.flink#flink-streaming-scala_2.11;1.4.2 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.apache.flink#flink-streaming-scala_2.11;1.4.2 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.11.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.11.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2 [compile->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2 {compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2[0m
 [0m[[0m[0mdebug[0m] [0m[0m	found org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2 in sbt-chain[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2->org.apache.flink#flink-connector-kafka-0.10_2.11;1.4.2 [compile->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
@@ -2154,25 +2154,25 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2->com.google.code.findbugs#jsr305;1.3.9 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2->org.apache.flink#force-shading;1.4.2 [runtime->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2->org.apache.flink#force-shading;1.4.2 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'runtime'[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.example#consumer_2.11;0.1 [runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.example#consumer_2.11;0.1 [compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for daniil#consumer_2.11;0.1 [runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for daniil#consumer_2.11;0.1 [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.apache.flink#flink-streaming-scala_2.11;1.4.2 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.apache.flink#flink-streaming-scala_2.11;1.4.2 [compile->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.apache.flink#flink-streaming-scala_2.11;1.4.2 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.apache.flink#flink-streaming-scala_2.11;1.4.2 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.apache.flink#flink-streaming-scala_2.11;1.4.2 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.apache.flink#flink-streaming-scala_2.11;1.4.2 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.11.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
@@ -4099,20 +4099,20 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.flink#flink-streaming-scala_2.11;1.4.2->com.google.code.findbugs#jsr305;1.3.9 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.flink#flink-streaming-scala_2.11;1.4.2->org.apache.flink#force-shading;1.4.2 [runtime->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.flink#flink-streaming-scala_2.11;1.4.2->org.apache.flink#force-shading;1.4.2 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.apache.flink#flink-streaming-scala_2.11;1.4.2 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.apache.flink#flink-streaming-scala_2.11;1.4.2 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.11.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.11.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2 [compile->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2->org.apache.flink#flink-connector-kafka-0.10_2.11;1.4.2 [compile->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
@@ -4233,30 +4233,30 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2->com.google.code.findbugs#jsr305;1.3.9 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2->org.apache.flink#force-shading;1.4.2 [runtime->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2->org.apache.flink#force-shading;1.4.2 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'test'[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.example#consumer_2.11;0.1 [test][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.example#consumer_2.11;0.1 [runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.example#consumer_2.11;0.1 [compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for daniil#consumer_2.11;0.1 [test][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for daniil#consumer_2.11;0.1 [runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for daniil#consumer_2.11;0.1 [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.apache.flink#flink-streaming-scala_2.11;1.4.2 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.apache.flink#flink-streaming-scala_2.11;1.4.2 [compile->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.apache.flink#flink-streaming-scala_2.11;1.4.2 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.apache.flink#flink-streaming-scala_2.11;1.4.2 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.apache.flink#flink-streaming-scala_2.11;1.4.2 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.apache.flink#flink-streaming-scala_2.11;1.4.2 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.11.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
@@ -6277,22 +6277,22 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.flink#flink-streaming-scala_2.11;1.4.2->com.google.code.findbugs#jsr305;1.3.9 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.flink#flink-streaming-scala_2.11;1.4.2->org.apache.flink#force-shading;1.4.2 [runtime->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.flink#flink-streaming-scala_2.11;1.4.2->org.apache.flink#force-shading;1.4.2 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.apache.flink#flink-streaming-scala_2.11;1.4.2 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.apache.flink#flink-streaming-scala_2.11;1.4.2 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.11.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.11.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2 [compile->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2->org.apache.flink#flink-connector-kafka-0.10_2.11;1.4.2 [compile->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
@@ -6423,15 +6423,15 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2->com.google.code.findbugs#jsr305;1.3.9 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2->org.apache.flink#force-shading;1.4.2 [runtime->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2->org.apache.flink#force-shading;1.4.2 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'provided'[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.example#consumer_2.11;0.1 [provided][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for daniil#consumer_2.11;0.1 [provided][0m
 [0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'optional'[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.example#consumer_2.11;0.1 [optional][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for daniil#consumer_2.11;0.1 [optional][0m
 [0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'compile-internal'[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.example#consumer_2.11;0.1 [compile-internal][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.example#consumer_2.11;0.1 [compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for daniil#consumer_2.11;0.1 [compile-internal][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for daniil#consumer_2.11;0.1 [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]}[0m
@@ -6440,10 +6440,10 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.apache.flink#flink-streaming-scala_2.11;1.4.2 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.apache.flink#flink-streaming-scala_2.11;1.4.2 [compile->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]}[0m
@@ -6452,8 +6452,8 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.apache.flink#flink-streaming-scala_2.11;1.4.2 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.apache.flink#flink-streaming-scala_2.11;1.4.2 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.apache.flink#flink-streaming-scala_2.11;1.4.2 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.apache.flink#flink-streaming-scala_2.11;1.4.2 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.11.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
@@ -8568,14 +8568,14 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.flink#flink-streaming-scala_2.11;1.4.2->com.google.code.findbugs#jsr305;1.3.9 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.flink#flink-streaming-scala_2.11;1.4.2->org.apache.flink#force-shading;1.4.2 [runtime->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.flink#flink-streaming-scala_2.11;1.4.2->org.apache.flink#force-shading;1.4.2 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.apache.flink#flink-streaming-scala_2.11;1.4.2 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.apache.flink#flink-streaming-scala_2.11;1.4.2 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.11.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.11.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2 [compile->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]}[0m
@@ -8584,8 +8584,8 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2->org.apache.flink#flink-connector-kafka-0.10_2.11;1.4.2 [compile->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
@@ -8726,14 +8726,14 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2->com.google.code.findbugs#jsr305;1.3.9 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2->org.apache.flink#force-shading;1.4.2 [runtime->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2->org.apache.flink#force-shading;1.4.2 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.example#consumer_2.11;0.1 [optional][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.example#consumer_2.11;0.1 [provided][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for daniil#consumer_2.11;0.1 [optional][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for daniil#consumer_2.11;0.1 [provided][0m
 [0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'runtime-internal'[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.example#consumer_2.11;0.1 [runtime-internal][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.example#consumer_2.11;0.1 [runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.example#consumer_2.11;0.1 [compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for daniil#consumer_2.11;0.1 [runtime-internal][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for daniil#consumer_2.11;0.1 [runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for daniil#consumer_2.11;0.1 [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]}[0m
@@ -8742,10 +8742,10 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.apache.flink#flink-streaming-scala_2.11;1.4.2 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.apache.flink#flink-streaming-scala_2.11;1.4.2 [compile->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]}[0m
@@ -8754,8 +8754,8 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.apache.flink#flink-streaming-scala_2.11;1.4.2 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.apache.flink#flink-streaming-scala_2.11;1.4.2 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.apache.flink#flink-streaming-scala_2.11;1.4.2 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.apache.flink#flink-streaming-scala_2.11;1.4.2 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.11.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
@@ -10870,14 +10870,14 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.flink#flink-streaming-scala_2.11;1.4.2->com.google.code.findbugs#jsr305;1.3.9 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.flink#flink-streaming-scala_2.11;1.4.2->org.apache.flink#force-shading;1.4.2 [runtime->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.flink#flink-streaming-scala_2.11;1.4.2->org.apache.flink#force-shading;1.4.2 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.apache.flink#flink-streaming-scala_2.11;1.4.2 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.apache.flink#flink-streaming-scala_2.11;1.4.2 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.11.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.11.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2 [compile->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]}[0m
@@ -10886,8 +10886,8 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2->org.apache.flink#flink-connector-kafka-0.10_2.11;1.4.2 [compile->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
@@ -11028,14 +11028,14 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2->com.google.code.findbugs#jsr305;1.3.9 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2->org.apache.flink#force-shading;1.4.2 [runtime->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2->org.apache.flink#force-shading;1.4.2 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.example#consumer_2.11;0.1 [optional][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for daniil#consumer_2.11;0.1 [optional][0m
 [0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'test-internal'[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.example#consumer_2.11;0.1 [test-internal][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.example#consumer_2.11;0.1 [test][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.example#consumer_2.11;0.1 [runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.example#consumer_2.11;0.1 [compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for daniil#consumer_2.11;0.1 [test-internal][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for daniil#consumer_2.11;0.1 [test][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for daniil#consumer_2.11;0.1 [runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for daniil#consumer_2.11;0.1 [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]}[0m
@@ -11048,10 +11048,10 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.apache.flink#flink-streaming-scala_2.11;1.4.2 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.apache.flink#flink-streaming-scala_2.11;1.4.2 [compile->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]}[0m
@@ -11064,8 +11064,8 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.apache.flink#flink-streaming-scala_2.11;1.4.2 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.apache.flink#flink-streaming-scala_2.11;1.4.2 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.apache.flink#flink-streaming-scala_2.11;1.4.2 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.apache.flink#flink-streaming-scala_2.11;1.4.2 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.11.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
@@ -13368,14 +13368,14 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.flink#flink-streaming-scala_2.11;1.4.2->com.google.code.findbugs#jsr305;1.3.9 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.flink#flink-streaming-scala_2.11;1.4.2->org.apache.flink#force-shading;1.4.2 [runtime->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.flink#flink-streaming-scala_2.11;1.4.2->org.apache.flink#force-shading;1.4.2 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.apache.flink#flink-streaming-scala_2.11;1.4.2 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.apache.flink#flink-streaming-scala_2.11;1.4.2 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.11.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.11.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2 [compile->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]}[0m
@@ -13388,8 +13388,8 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2->org.apache.flink#flink-connector-kafka-0.10_2.11;1.4.2 [compile->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
@@ -13550,20 +13550,20 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2->com.google.code.findbugs#jsr305;1.3.9 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2->org.apache.flink#force-shading;1.4.2 [runtime->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2->org.apache.flink#force-shading;1.4.2 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.example#consumer_2.11;0.1 [optional][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.example#consumer_2.11;0.1 [provided][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for daniil#consumer_2.11;0.1 [optional][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for daniil#consumer_2.11;0.1 [provided][0m
 [0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'plugin'[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.example#consumer_2.11;0.1 [plugin][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for daniil#consumer_2.11;0.1 [plugin][0m
 [0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'pom'[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.example#consumer_2.11;0.1 [pom][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for daniil#consumer_2.11;0.1 [pom][0m
 [0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'scala-tool'[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.example#consumer_2.11;0.1 [scala-tool][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.scala-lang#scala-compiler;2.11.5 [scala-tool->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for daniil#consumer_2.11;0.1 [scala-tool][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.scala-lang#scala-compiler;2.11.5 [scala-tool->default][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.5 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.scala-lang#scala-compiler;2.11.5 [scala-tool->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.scala-lang#scala-compiler;2.11.5 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.scala-lang#scala-compiler;2.11.5 [scala-tool->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.scala-lang#scala-compiler;2.11.5 [scala-tool->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang#scala-compiler;2.11.5->org.scala-lang#scala-library;2.11.5 [compile->master(compile)][0m
@@ -13686,12 +13686,12 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.3->org.scala-lang#scala-library;2.11.5 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang#scala-compiler;2.11.5->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [runtime->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang#scala-compiler;2.11.5->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.scala-lang#scala-compiler;2.11.5 [scala-tool->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.scala-lang#scala-compiler;2.11.5 [scala-tool->master][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.scala-lang#scala-compiler;2.11.5 [scala-tool->optional(default)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.scala-lang#scala-compiler;2.11.5 [scala-tool->optional(default)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.11.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang#scala-compiler;2.11.5->jline#jline;2.12 [optional->master(compile)][0m
@@ -13713,216 +13713,115 @@
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: jline#jline;2.12[0m
 [0m[[0m[0mdebug[0m] [0m[0m	found jline#jline;2.12 in sbt-chain[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang#scala-compiler;2.11.5->jline#jline;2.12 [optional->compile(*)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [scala-tool->default][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [scala-tool->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [scala-tool->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [scala-tool->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.example#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [scala-tool->optional(default)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [scala-tool->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [scala-tool->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [scala-tool->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies daniil#consumer_2.11;0.1->org.scala-lang#scala-library;2.11.5 [scala-tool->optional(default)][0m
 [0m[[0m[0mdebug[0m] [0m[0mignoring unhandled DependencyDescriptorMediator: class sbt.internal.librarymanagement.IvyScalaUtil$OverrideScalaMediator[0m
 [0m[[0m[0mdebug[0m] [0m[0m	resolved ivy file produced in cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m:: downloading artifacts ::[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.5!scala-library.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.flink#flink-shaded-jackson;2.7.9-2.0!flink-shaded-jackson.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.esotericsoftware.minlog#minlog;1.2!minlog.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.tukaani#xz;1.0!xz.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/daniil/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/daniil/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/daniil/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.flink#flink-streaming-scala_2.11;1.4.2!flink-streaming-scala_2.11.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] commons-io#commons-io;2.4!commons-io.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/daniil/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/daniil/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/daniil/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (28ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/daniil/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (19ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/daniil/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] commons-cli#commons-cli;1.3.1!commons-cli.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (37ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/daniil/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.flink#flink-java;1.4.2!flink-java.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.javassist#javassist;3.18.2-GA!javassist.jar(bundle)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2!flink-connector-kafka-0.11_2.11.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(bundle)[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/daniil/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/daniil/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (24ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/daniil/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.flink#flink-shaded-netty;4.0.27.Final-2.0!flink-shaded-netty.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.4.20!akka-actor_2.11.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.7!slf4j-api.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/daniil/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/daniil/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.flink#flink-connector-kafka-0.9_2.11;1.4.2!flink-connector-kafka-0.9_2.11.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe.akka#akka-stream_2.11;2.4.20!akka-stream_2.11.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe.akka#akka-protobuf_2.11;2.4.20!akka-protobuf_2.11.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.twitter#chill-java;0.7.4!chill-java.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (29ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/daniil/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-java8-compat_2.11;0.7.0!scala-java8-compat_2.11.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/daniil/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.sling#org.apache.sling.commons.json;2.0.6!org.apache.sling.commons.json.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/daniil/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.flink#flink-shaded-jackson;2.7.9-2.0!flink-shaded-jackson.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/daniil/.ivy2[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/daniil/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.flink#flink-optimizer_2.11;1.4.2!flink-optimizer_2.11.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.twitter#chill_2.11;0.7.4!chill_2.11.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/daniil/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/daniil/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (31ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/daniil/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (34ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/daniil/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe#ssl-config-core_2.11;0.2.1!ssl-config-core_2.11.jar(bundle)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] net.jpountz.lz4#lz4;1.3.0!lz4.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.flink#flink-connector-kafka-base_2.11;1.4.2!flink-connector-kafka-base_2.11.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] jline#jline;2.12!jline.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.scopt#scopt_2.11;3.5.0!scopt_2.11.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.javassist#javassist;3.18.2-GA!javassist.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.twitter#chill_2.11;0.7.4!chill_2.11.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/daniil/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-java8-compat_2.11;0.7.0!scala-java8-compat_2.11.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/daniil/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/daniil/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/daniil/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.7!slf4j-api.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.esotericsoftware.minlog#minlog;1.2!minlog.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/daniil/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/daniil/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/daniil/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.flink#flink-runtime_2.11;1.4.2!flink-runtime_2.11.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/daniil/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/daniil/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/daniil/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.flink#flink-queryable-state-client-java_2.11;1.4.2!flink-queryable-state-client-java_2.11.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/daniil/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe.akka#akka-slf4j_2.11;2.4.20!akka-slf4j_2.11.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/daniil/.ivy2[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (22ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/daniil/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (39ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/daniil/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.commons#commons-lang3;3.3.2!commons-lang3.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/daniil/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/daniil/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.objenesis#objenesis;2.1!objenesis.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.scopt#scopt_2.11;3.5.0!scopt_2.11.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.flink#flink-metrics-core;1.4.2!flink-metrics-core.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/daniil/.ivy2[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/daniil/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.google.code.findbugs#jsr305;1.3.9!jsr305.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe.akka#akka-slf4j_2.11;2.4.20!akka-slf4j_2.11.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.3!scala-xml_2.11.jar(bundle)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.clapper#grizzled-slf4j_2.11;1.0.2!grizzled-slf4j_2.11.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/daniil/.ivy2[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.sling#org.apache.sling.commons.json;2.0.6!org.apache.sling.commons.json.jar(bundle)[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/daniil/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.flink#flink-annotations;1.4.2!flink-annotations.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.flink#flink-connector-kafka-0.10_2.11;1.4.2!flink-connector-kafka-0.10_2.11.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.flink#force-shading;1.4.2!force-shading.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.kafka#kafka-clients;0.11.0.2!kafka-clients.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] commons-collections#commons-collections;3.2.2!commons-collections.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.flink#flink-core;1.4.2!flink-core.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.commons#commons-compress;1.4.1!commons-compress.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.0!reactive-streams.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe#config;1.3.0!config.jar(bundle)[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/daniil/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (13ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/daniil/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/daniil/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.flink#flink-streaming-java_2.11;1.4.2!flink-streaming-java_2.11.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.5!scala-reflect.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/daniil/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/daniil/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/daniil/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/daniil/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/daniil/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/daniil/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (229ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/daniil/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (134ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/daniil/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
@@ -13931,30 +13830,111 @@
 [0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
 [0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
 [0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.esotericsoftware.kryo#kryo;2.24.0!kryo.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.flink#flink-queryable-state-client-java_2.11;1.4.2!flink-queryable-state-client-java_2.11.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/daniil/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/daniil/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/daniil/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/daniil/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.flink#flink-streaming-scala_2.11;1.4.2!flink-streaming-scala_2.11.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/daniil/.ivy2[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.flink#flink-streaming-java_2.11;1.4.2!flink-streaming-java_2.11.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.flink#flink-shaded-guava;18.0-2.0!flink-shaded-guava.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.0!reactive-streams.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.flink#flink-connector-kafka-0.9_2.11;1.4.2!flink-connector-kafka-0.9_2.11.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] commons-io#commons-io;2.4!commons-io.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (105ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/daniil/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.clapper#grizzled-slf4j_2.11;1.0.2!grizzled-slf4j_2.11.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.tukaani#xz;1.0!xz.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.flink#flink-java;1.4.2!flink-java.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] commons-collections#commons-collections;3.2.2!commons-collections.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.commons#commons-compress;1.4.1!commons-compress.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/daniil/.ivy2[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.commons#commons-math3;3.5!commons-math3.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.flink#flink-scala_2.11;1.4.2!flink-scala_2.11.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/daniil/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.5!scala-reflect.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.5!scala-compiler.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (154ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/daniil/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/daniil/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.flink#flink-runtime_2.11;1.4.2!flink-runtime_2.11.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/daniil/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (168ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/daniil/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/daniil/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/daniil/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (20ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (317ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/daniil/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (129ms)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/daniil/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
@@ -13964,34 +13944,123 @@
 [0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
 [0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.flink#flink-clients_2.11;1.4.2!flink-clients_2.11.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.4.20!akka-actor_2.11.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.flink#flink-shaded-guava;18.0-2.0!flink-shaded-guava.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.flink#force-shading;1.4.2!force-shading.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/daniil/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/daniil/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (124ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (194ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/daniil/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (275ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/daniil/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (84ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/daniil/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/daniil/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (298ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/daniil/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/daniil/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (226ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/daniil/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (127ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/daniil/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (161ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/daniil/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/daniil/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.flink#flink-connector-kafka-base_2.11;1.4.2!flink-connector-kafka-base_2.11.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] jline#jline;2.12!jline.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.flink#flink-core;1.4.2!flink-core.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.flink#flink-shaded-asm;5.0.4-2.0!flink-shaded-asm.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (38ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/daniil/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (31ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/daniil/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] net.jpountz.lz4#lz4;1.3.0!lz4.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe#config;1.3.0!config.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.flink#flink-annotations;1.4.2!flink-annotations.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.flink#flink-scala_2.11;1.4.2!flink-scala_2.11.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.esotericsoftware.kryo#kryo;2.24.0!kryo.jar(bundle)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.xerial.snappy#snappy-java;1.1.4!snappy-java.jar(bundle)[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (57ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.flink#flink-connector-kafka-0.10_2.11;1.4.2!flink-connector-kafka-0.10_2.11.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.twitter#chill-java;0.7.4!chill-java.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.5!scala-compiler.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.3!scala-xml_2.11.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.flink#flink-optimizer_2.11;1.4.2!flink-optimizer_2.11.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3!scala-parser-combinators_2.11.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe.akka#akka-protobuf_2.11;2.4.20!akka-protobuf_2.11.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/daniil/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (255ms)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/daniil/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
@@ -14000,21 +14069,128 @@
 [0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
 [0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
 [0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.objenesis#objenesis;2.1!objenesis.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (244ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/daniil/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (403ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/daniil/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (192ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/daniil/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/daniil/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.flink#flink-shaded-netty;4.0.27.Final-2.0!flink-shaded-netty.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.flink#flink-hadoop-fs;1.4.2!flink-hadoop-fs.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3!scala-parser-combinators_2.11.jar(bundle)[0m
-[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 1596ms :: artifacts dl 441ms[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for org.example#consumer_2.11;0.1 compile produced in /home/daniil/workspace/scala/BitsCounterKafka/c/target/scala-2.11/resolution-cache/reports/org.example-consumer_2.11-compile.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for org.example#consumer_2.11;0.1 runtime produced in /home/daniil/workspace/scala/BitsCounterKafka/c/target/scala-2.11/resolution-cache/reports/org.example-consumer_2.11-runtime.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for org.example#consumer_2.11;0.1 test produced in /home/daniil/workspace/scala/BitsCounterKafka/c/target/scala-2.11/resolution-cache/reports/org.example-consumer_2.11-test.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for org.example#consumer_2.11;0.1 provided produced in /home/daniil/workspace/scala/BitsCounterKafka/c/target/scala-2.11/resolution-cache/reports/org.example-consumer_2.11-provided.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for org.example#consumer_2.11;0.1 optional produced in /home/daniil/workspace/scala/BitsCounterKafka/c/target/scala-2.11/resolution-cache/reports/org.example-consumer_2.11-optional.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for org.example#consumer_2.11;0.1 compile-internal produced in /home/daniil/workspace/scala/BitsCounterKafka/c/target/scala-2.11/resolution-cache/reports/org.example-consumer_2.11-compile-internal.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for org.example#consumer_2.11;0.1 runtime-internal produced in /home/daniil/workspace/scala/BitsCounterKafka/c/target/scala-2.11/resolution-cache/reports/org.example-consumer_2.11-runtime-internal.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for org.example#consumer_2.11;0.1 test-internal produced in /home/daniil/workspace/scala/BitsCounterKafka/c/target/scala-2.11/resolution-cache/reports/org.example-consumer_2.11-test-internal.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for org.example#consumer_2.11;0.1 plugin produced in /home/daniil/workspace/scala/BitsCounterKafka/c/target/scala-2.11/resolution-cache/reports/org.example-consumer_2.11-plugin.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for org.example#consumer_2.11;0.1 pom produced in /home/daniil/workspace/scala/BitsCounterKafka/c/target/scala-2.11/resolution-cache/reports/org.example-consumer_2.11-pom.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for org.example#consumer_2.11;0.1 scala-tool produced in /home/daniil/workspace/scala/BitsCounterKafka/c/target/scala-2.11/resolution-cache/reports/org.example-consumer_2.11-scala-tool.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	resolve done (1596ms resolve - 441ms download)[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/daniil/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (230ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/daniil/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.flink#flink-connector-kafka-0.11_2.11;1.4.2!flink-connector-kafka-0.11_2.11.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/daniil/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (177ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/daniil/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.commons#commons-math3;3.5!commons-math3.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (202ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/daniil/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (321ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/daniil/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] commons-cli#commons-cli;1.3.1!commons-cli.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.google.code.findbugs#jsr305;1.3.9!jsr305.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/daniil/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (41ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/daniil/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (78ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/daniil/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.kafka#kafka-clients;0.11.0.2!kafka-clients.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 3934ms :: artifacts dl 607ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for daniil#consumer_2.11;0.1 compile produced in /home/daniil/workspace/scala/BitsCounterKafka/c/target/scala-2.11/resolution-cache/reports/daniil-consumer_2.11-compile.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for daniil#consumer_2.11;0.1 runtime produced in /home/daniil/workspace/scala/BitsCounterKafka/c/target/scala-2.11/resolution-cache/reports/daniil-consumer_2.11-runtime.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for daniil#consumer_2.11;0.1 test produced in /home/daniil/workspace/scala/BitsCounterKafka/c/target/scala-2.11/resolution-cache/reports/daniil-consumer_2.11-test.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for daniil#consumer_2.11;0.1 provided produced in /home/daniil/workspace/scala/BitsCounterKafka/c/target/scala-2.11/resolution-cache/reports/daniil-consumer_2.11-provided.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for daniil#consumer_2.11;0.1 optional produced in /home/daniil/workspace/scala/BitsCounterKafka/c/target/scala-2.11/resolution-cache/reports/daniil-consumer_2.11-optional.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for daniil#consumer_2.11;0.1 compile-internal produced in /home/daniil/workspace/scala/BitsCounterKafka/c/target/scala-2.11/resolution-cache/reports/daniil-consumer_2.11-compile-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for daniil#consumer_2.11;0.1 runtime-internal produced in /home/daniil/workspace/scala/BitsCounterKafka/c/target/scala-2.11/resolution-cache/reports/daniil-consumer_2.11-runtime-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for daniil#consumer_2.11;0.1 test-internal produced in /home/daniil/workspace/scala/BitsCounterKafka/c/target/scala-2.11/resolution-cache/reports/daniil-consumer_2.11-test-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for daniil#consumer_2.11;0.1 plugin produced in /home/daniil/workspace/scala/BitsCounterKafka/c/target/scala-2.11/resolution-cache/reports/daniil-consumer_2.11-plugin.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for daniil#consumer_2.11;0.1 pom produced in /home/daniil/workspace/scala/BitsCounterKafka/c/target/scala-2.11/resolution-cache/reports/daniil-consumer_2.11-pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for daniil#consumer_2.11;0.1 scala-tool produced in /home/daniil/workspace/scala/BitsCounterKafka/c/target/scala-2.11/resolution-cache/reports/daniil-consumer_2.11-scala-tool.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	resolve done (3934ms resolve - 607ms download)[0m
 [0m[[0m[0minfo[0m] [0m[0mDone updating.[0m
 [0m[[0m[33mwarn[0m] [0m[0mFound version conflict(s) in library dependencies; some are suspected to be binary incompatible:[0m
 [0m[[0m[33mwarn[0m] [0m[0m	* org.apache.kafka:kafka-clients:0.11.0.2 is selected over {0.10.2.1, 0.9.0.1}[0m

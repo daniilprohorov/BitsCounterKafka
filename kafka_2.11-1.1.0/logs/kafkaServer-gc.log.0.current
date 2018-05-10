@@ -1,8 +1,8 @@
 OpenJDK 64-Bit Server VM (25.144-b01) for linux-amd64 JRE (1.8.0_144-b01), built on Jul 28 2017 20:07:18 by "builduser" with gcc 7.1.1 20170630
-Memory: 4k page, physical 7889628k(192672k free), swap 1577920k(1577920k free)
+Memory: 4k page, physical 7889632k(844104k free), swap 1577920k(1577920k free)
 CommandLine flags: -XX:+ExplicitGCInvokesConcurrent -XX:GCLogFileSize=104857600 -XX:InitialHeapSize=1073741824 -XX:InitiatingHeapOccupancyPercent=35 -XX:+ManagementServer -XX:MaxGCPauseMillis=20 -XX:MaxHeapSize=1073741824 -XX:NumberOfGCLogFiles=10 -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseG1GC -XX:+UseGCLogFileRotation 
 Heap
  garbage-first heap   total 1048576K, used 46080K [0x00000000c0000000, 0x00000000c0102000, 0x0000000100000000)
   region size 1024K, 46 young (47104K), 0 survivors (0K)
- Metaspace       used 14535K, capacity 14692K, committed 14976K, reserved 1062912K
+ Metaspace       used 14523K, capacity 14708K, committed 14976K, reserved 1062912K
   class space    used 2006K, capacity 2086K, committed 2176K, reserved 1048576K

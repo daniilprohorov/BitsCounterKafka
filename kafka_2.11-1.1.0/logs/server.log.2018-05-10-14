@@ -1,0 +1,1616 @@
+[2018-05-10 14:15:35,850] INFO Reading configuration from: config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2018-05-10 14:15:35,882] INFO autopurge.snapRetainCount set to 3 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2018-05-10 14:15:35,882] INFO autopurge.purgeInterval set to 0 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2018-05-10 14:15:35,882] INFO Purge task is not scheduled. (org.apache.zookeeper.server.DatadirCleanupManager)
+[2018-05-10 14:15:35,883] WARN Either no config or no quorum defined in config, running  in standalone mode (org.apache.zookeeper.server.quorum.QuorumPeerMain)
+[2018-05-10 14:15:36,097] INFO Reading configuration from: config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2018-05-10 14:15:36,109] INFO Starting server (org.apache.zookeeper.server.ZooKeeperServerMain)
+[2018-05-10 14:15:36,161] INFO Server environment:zookeeper.version=3.4.10-39d3a4f269333c922ed3db283be479f9deacaa0f, built on 03/23/2017 10:13 GMT (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:15:36,161] INFO Server environment:host.name=Thinkpad (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:15:36,161] INFO Server environment:java.version=1.8.0_144 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:15:36,161] INFO Server environment:java.vendor=Oracle Corporation (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:15:36,162] INFO Server environment:java.home=/usr/lib/jvm/java-8-openjdk/jre (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:15:36,162] INFO Server environment:java.class.path=/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/aopalliance-repackaged-2.5.0-b32.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/argparse4j-0.7.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/commons-lang3-3.5.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/connect-api-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/connect-file-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/connect-json-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/connect-runtime-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/connect-transforms-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/guava-20.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/hk2-api-2.5.0-b32.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/hk2-locator-2.5.0-b32.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/hk2-utils-2.5.0-b32.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jackson-annotations-2.9.4.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jackson-core-2.9.4.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jackson-databind-2.9.4.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jackson-jaxrs-base-2.9.4.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jackson-jaxrs-json-provider-2.9.4.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jackson-module-jaxb-annotations-2.9.4.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/javassist-3.20.0-GA.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/javassist-3.21.0-GA.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/javax.annotation-api-1.2.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/javax.inject-1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/javax.inject-2.5.0-b32.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/javax.servlet-api-3.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/javax.ws.rs-api-2.0.1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jersey-client-2.25.1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jersey-common-2.25.1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jersey-container-servlet-2.25.1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jersey-container-servlet-core-2.25.1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jersey-guava-2.25.1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jersey-media-jaxb-2.25.1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jersey-server-2.25.1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jetty-client-9.2.24.v20180105.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jetty-continuation-9.2.24.v20180105.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jetty-http-9.2.24.v20180105.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jetty-io-9.2.24.v20180105.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jetty-security-9.2.24.v20180105.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jetty-server-9.2.24.v20180105.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jetty-servlet-9.2.24.v20180105.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jetty-servlets-9.2.24.v20180105.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jetty-util-9.2.24.v20180105.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jopt-simple-5.0.4.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/kafka_2.11-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/kafka_2.11-1.1.0-sources.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/kafka_2.11-1.1.0-test-sources.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/kafka-clients-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/kafka-log4j-appender-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/kafka-streams-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/kafka-streams-examples-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/kafka-streams-test-utils-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/kafka-tools-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/log4j-1.2.17.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/lz4-java-1.4.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/maven-artifact-3.5.2.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/metrics-core-2.2.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/osgi-resource-locator-1.0.1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/plexus-utils-3.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/reflections-0.9.11.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/rocksdbjni-5.7.3.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/scala-library-2.11.12.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/scala-logging_2.11-3.7.2.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/scala-reflect-2.11.12.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/slf4j-api-1.7.25.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/slf4j-log4j12-1.7.25.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/snappy-java-1.1.7.1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/validation-api-1.1.0.Final.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/zkclient-0.10.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/zookeeper-3.4.10.jar (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:15:36,163] INFO Server environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:15:36,163] INFO Server environment:java.io.tmpdir=/tmp (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:15:36,163] INFO Server environment:java.compiler=<NA> (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:15:36,163] INFO Server environment:os.name=Linux (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:15:36,163] INFO Server environment:os.arch=amd64 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:15:36,164] INFO Server environment:os.version=4.14.17-1-lts (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:15:36,164] INFO Server environment:user.name=daniil (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:15:36,164] INFO Server environment:user.home=/home/daniil (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:15:36,164] INFO Server environment:user.dir=/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:15:36,208] INFO tickTime set to 3000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:15:36,215] INFO minSessionTimeout set to -1 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:15:36,215] INFO maxSessionTimeout set to -1 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:15:36,288] INFO binding to port 0.0.0.0/0.0.0.0:2181 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2018-05-10 14:16:02,955] INFO Registered kafka:type=kafka.Log4jController MBean (kafka.utils.Log4jControllerRegistration$)
+[2018-05-10 14:16:04,118] INFO starting (kafka.server.KafkaServer)
+[2018-05-10 14:16:04,121] INFO Connecting to zookeeper on localhost:2181 (kafka.server.KafkaServer)
+[2018-05-10 14:16:04,159] INFO [ZooKeeperClient] Initializing a new session to localhost:2181. (kafka.zookeeper.ZooKeeperClient)
+[2018-05-10 14:16:04,185] INFO Client environment:zookeeper.version=3.4.10-39d3a4f269333c922ed3db283be479f9deacaa0f, built on 03/23/2017 10:13 GMT (org.apache.zookeeper.ZooKeeper)
+[2018-05-10 14:16:04,185] INFO Client environment:host.name=Thinkpad (org.apache.zookeeper.ZooKeeper)
+[2018-05-10 14:16:04,186] INFO Client environment:java.version=1.8.0_144 (org.apache.zookeeper.ZooKeeper)
+[2018-05-10 14:16:04,186] INFO Client environment:java.vendor=Oracle Corporation (org.apache.zookeeper.ZooKeeper)
+[2018-05-10 14:16:04,186] INFO Client environment:java.home=/usr/lib/jvm/java-8-openjdk/jre (org.apache.zookeeper.ZooKeeper)
+[2018-05-10 14:16:04,186] INFO Client environment:java.class.path=/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/aopalliance-repackaged-2.5.0-b32.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/argparse4j-0.7.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/commons-lang3-3.5.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/connect-api-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/connect-file-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/connect-json-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/connect-runtime-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/connect-transforms-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/guava-20.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/hk2-api-2.5.0-b32.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/hk2-locator-2.5.0-b32.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/hk2-utils-2.5.0-b32.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jackson-annotations-2.9.4.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jackson-core-2.9.4.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jackson-databind-2.9.4.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jackson-jaxrs-base-2.9.4.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jackson-jaxrs-json-provider-2.9.4.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jackson-module-jaxb-annotations-2.9.4.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/javassist-3.20.0-GA.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/javassist-3.21.0-GA.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/javax.annotation-api-1.2.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/javax.inject-1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/javax.inject-2.5.0-b32.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/javax.servlet-api-3.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/javax.ws.rs-api-2.0.1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jersey-client-2.25.1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jersey-common-2.25.1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jersey-container-servlet-2.25.1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jersey-container-servlet-core-2.25.1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jersey-guava-2.25.1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jersey-media-jaxb-2.25.1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jersey-server-2.25.1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jetty-client-9.2.24.v20180105.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jetty-continuation-9.2.24.v20180105.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jetty-http-9.2.24.v20180105.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jetty-io-9.2.24.v20180105.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jetty-security-9.2.24.v20180105.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jetty-server-9.2.24.v20180105.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jetty-servlet-9.2.24.v20180105.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jetty-servlets-9.2.24.v20180105.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jetty-util-9.2.24.v20180105.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jopt-simple-5.0.4.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/kafka_2.11-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/kafka_2.11-1.1.0-sources.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/kafka_2.11-1.1.0-test-sources.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/kafka-clients-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/kafka-log4j-appender-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/kafka-streams-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/kafka-streams-examples-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/kafka-streams-test-utils-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/kafka-tools-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/log4j-1.2.17.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/lz4-java-1.4.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/maven-artifact-3.5.2.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/metrics-core-2.2.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/osgi-resource-locator-1.0.1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/plexus-utils-3.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/reflections-0.9.11.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/rocksdbjni-5.7.3.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/scala-library-2.11.12.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/scala-logging_2.11-3.7.2.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/scala-reflect-2.11.12.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/slf4j-api-1.7.25.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/slf4j-log4j12-1.7.25.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/snappy-java-1.1.7.1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/validation-api-1.1.0.Final.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/zkclient-0.10.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/zookeeper-3.4.10.jar (org.apache.zookeeper.ZooKeeper)
+[2018-05-10 14:16:04,188] INFO Client environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib (org.apache.zookeeper.ZooKeeper)
+[2018-05-10 14:16:04,188] INFO Client environment:java.io.tmpdir=/tmp (org.apache.zookeeper.ZooKeeper)
+[2018-05-10 14:16:04,188] INFO Client environment:java.compiler=<NA> (org.apache.zookeeper.ZooKeeper)
+[2018-05-10 14:16:04,188] INFO Client environment:os.name=Linux (org.apache.zookeeper.ZooKeeper)
+[2018-05-10 14:16:04,188] INFO Client environment:os.arch=amd64 (org.apache.zookeeper.ZooKeeper)
+[2018-05-10 14:16:04,188] INFO Client environment:os.version=4.14.17-1-lts (org.apache.zookeeper.ZooKeeper)
+[2018-05-10 14:16:04,189] INFO Client environment:user.name=daniil (org.apache.zookeeper.ZooKeeper)
+[2018-05-10 14:16:04,189] INFO Client environment:user.home=/home/daniil (org.apache.zookeeper.ZooKeeper)
+[2018-05-10 14:16:04,189] INFO Client environment:user.dir=/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0 (org.apache.zookeeper.ZooKeeper)
+[2018-05-10 14:16:04,192] INFO Initiating client connection, connectString=localhost:2181 sessionTimeout=6000 watcher=kafka.zookeeper.ZooKeeperClient$ZooKeeperClientWatcher$@7f3b84b8 (org.apache.zookeeper.ZooKeeper)
+[2018-05-10 14:16:04,224] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2018-05-10 14:16:04,227] INFO [ZooKeeperClient] Waiting until connected. (kafka.zookeeper.ZooKeeperClient)
+[2018-05-10 14:16:04,243] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:44648 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2018-05-10 14:16:04,254] INFO Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2018-05-10 14:16:04,273] INFO Client attempting to establish new session at /0:0:0:0:0:0:0:1:44648 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:16:04,279] INFO Creating new log file: log.1 (org.apache.zookeeper.server.persistence.FileTxnLog)
+[2018-05-10 14:16:04,316] INFO Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x16349c375240000, negotiated timeout = 6000 (org.apache.zookeeper.ClientCnxn)
+[2018-05-10 14:16:04,320] INFO Established session 0x16349c375240000 with negotiated timeout 6000 for client /0:0:0:0:0:0:0:1:44648 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:16:04,322] INFO [ZooKeeperClient] Connected. (kafka.zookeeper.ZooKeeperClient)
+[2018-05-10 14:16:04,457] INFO Got user-level KeeperException when processing sessionid:0x16349c375240000 type:create cxid:0x2 zxid:0x3 txntype:-1 reqpath:n/a Error Path:/brokers Error:KeeperErrorCode = NoNode for /brokers (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-05-10 14:16:04,480] INFO Got user-level KeeperException when processing sessionid:0x16349c375240000 type:create cxid:0x6 zxid:0x7 txntype:-1 reqpath:n/a Error Path:/config Error:KeeperErrorCode = NoNode for /config (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-05-10 14:16:04,492] INFO Got user-level KeeperException when processing sessionid:0x16349c375240000 type:create cxid:0x9 zxid:0xa txntype:-1 reqpath:n/a Error Path:/admin Error:KeeperErrorCode = NoNode for /admin (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-05-10 14:16:05,071] INFO Got user-level KeeperException when processing sessionid:0x16349c375240000 type:create cxid:0x15 zxid:0x15 txntype:-1 reqpath:n/a Error Path:/cluster Error:KeeperErrorCode = NoNode for /cluster (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-05-10 14:16:05,080] INFO Cluster ID = 9_M3kz8LRvWYFhWkJyxITg (kafka.server.KafkaServer)
+[2018-05-10 14:16:05,104] WARN No meta.properties file under dir /tmp/kafka-logs/meta.properties (kafka.server.BrokerMetadataCheckpoint)
+[2018-05-10 14:16:05,292] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = null
+	advertised.port = null
+	alter.config.policy.class.name = null
+	alter.log.dirs.replication.quota.window.num = 11
+	alter.log.dirs.replication.quota.window.size.seconds = 1
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.id = 0
+	broker.id.generation.enable = true
+	broker.rack = null
+	compression.type = producer
+	connections.max.idle.ms = 600000
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delegation.token.expiry.check.interval.ms = 3600000
+	delegation.token.expiry.time.ms = 86400000
+	delegation.token.master.key = null
+	delegation.token.max.lifetime.ms = 604800000
+	delete.records.purgatory.purge.interval.requests = 1
+	delete.topic.enable = true
+	fetch.purgatory.purge.interval.requests = 1000
+	group.initial.rebalance.delay.ms = 0
+	group.max.session.timeout.ms = 300000
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 1.1-IV0
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+	listeners = null
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = /tmp/kafka-logs
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.flush.start.offset.checkpoint.interval.ms = 60000
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.format.version = 1.1-IV0
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	max.incremental.fetch.session.cache.slots = 1000
+	message.max.bytes = 1000012
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.alter.log.dirs.threads = null
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 1440
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 1
+	offsets.topic.segment.bytes = 104857600
+	password.encoder.cipher.algorithm = AES/CBC/PKCS5Padding
+	password.encoder.iterations = 4096
+	password.encoder.key.length = 128
+	password.encoder.keyfactory.algorithm = null
+	password.encoder.old.secret = null
+	password.encoder.secret = null
+	port = 9092
+	principal.builder.class = null
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.request.bytes = -1
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 10000
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	security.inter.broker.protocol = PLAINTEXT
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = []
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.abort.timed.out.transaction.cleanup.interval.ms = 60000
+	transaction.max.timeout.ms = 900000
+	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+	transaction.state.log.load.buffer.size = 5242880
+	transaction.state.log.min.isr = 1
+	transaction.state.log.num.partitions = 50
+	transaction.state.log.replication.factor = 1
+	transaction.state.log.segment.bytes = 104857600
+	transactional.id.expiration.ms = 604800000
+	unclean.leader.election.enable = false
+	zookeeper.connect = localhost:2181
+	zookeeper.connection.timeout.ms = 6000
+	zookeeper.max.in.flight.requests = 10
+	zookeeper.session.timeout.ms = 6000
+	zookeeper.set.acl = false
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2018-05-10 14:16:05,312] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = null
+	advertised.port = null
+	alter.config.policy.class.name = null
+	alter.log.dirs.replication.quota.window.num = 11
+	alter.log.dirs.replication.quota.window.size.seconds = 1
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.id = 0
+	broker.id.generation.enable = true
+	broker.rack = null
+	compression.type = producer
+	connections.max.idle.ms = 600000
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delegation.token.expiry.check.interval.ms = 3600000
+	delegation.token.expiry.time.ms = 86400000
+	delegation.token.master.key = null
+	delegation.token.max.lifetime.ms = 604800000
+	delete.records.purgatory.purge.interval.requests = 1
+	delete.topic.enable = true
+	fetch.purgatory.purge.interval.requests = 1000
+	group.initial.rebalance.delay.ms = 0
+	group.max.session.timeout.ms = 300000
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 1.1-IV0
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+	listeners = null
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = /tmp/kafka-logs
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.flush.start.offset.checkpoint.interval.ms = 60000
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.format.version = 1.1-IV0
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	max.incremental.fetch.session.cache.slots = 1000
+	message.max.bytes = 1000012
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.alter.log.dirs.threads = null
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 1440
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 1
+	offsets.topic.segment.bytes = 104857600
+	password.encoder.cipher.algorithm = AES/CBC/PKCS5Padding
+	password.encoder.iterations = 4096
+	password.encoder.key.length = 128
+	password.encoder.keyfactory.algorithm = null
+	password.encoder.old.secret = null
+	password.encoder.secret = null
+	port = 9092
+	principal.builder.class = null
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.request.bytes = -1
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 10000
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	security.inter.broker.protocol = PLAINTEXT
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = []
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.abort.timed.out.transaction.cleanup.interval.ms = 60000
+	transaction.max.timeout.ms = 900000
+	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+	transaction.state.log.load.buffer.size = 5242880
+	transaction.state.log.min.isr = 1
+	transaction.state.log.num.partitions = 50
+	transaction.state.log.replication.factor = 1
+	transaction.state.log.segment.bytes = 104857600
+	transactional.id.expiration.ms = 604800000
+	unclean.leader.election.enable = false
+	zookeeper.connect = localhost:2181
+	zookeeper.connection.timeout.ms = 6000
+	zookeeper.max.in.flight.requests = 10
+	zookeeper.session.timeout.ms = 6000
+	zookeeper.set.acl = false
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2018-05-10 14:16:05,391] INFO [ThrottledRequestReaper-Fetch]: Starting (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2018-05-10 14:16:05,396] INFO [ThrottledRequestReaper-Produce]: Starting (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2018-05-10 14:16:05,401] INFO [ThrottledRequestReaper-Request]: Starting (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2018-05-10 14:16:05,468] INFO Log directory '/tmp/kafka-logs' not found, creating it. (kafka.log.LogManager)
+[2018-05-10 14:16:05,486] INFO Loading logs. (kafka.log.LogManager)
+[2018-05-10 14:16:05,506] INFO Logs loading complete in 19 ms. (kafka.log.LogManager)
+[2018-05-10 14:16:05,530] INFO Starting log cleanup with a period of 300000 ms. (kafka.log.LogManager)
+[2018-05-10 14:16:05,534] INFO Starting log flusher with a default period of 9223372036854775807 ms. (kafka.log.LogManager)
+[2018-05-10 14:16:06,866] INFO Awaiting socket connections on 0.0.0.0:9092. (kafka.network.Acceptor)
+[2018-05-10 14:16:06,926] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:06,934] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:06,947] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:06,947] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:06,948] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:06,948] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:06,948] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:06,949] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:06,960] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:06,960] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:06,961] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:06,961] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:06,967] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:06,968] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:06,968] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:06,978] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:06,979] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:06,979] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:06,987] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:06,987] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:06,992] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:06,993] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:06,993] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:06,994] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:06,994] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:06,994] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:06,995] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:06,995] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:06,996] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:06,996] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:06,997] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,007] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,008] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,008] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,009] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,009] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,017] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,018] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,018] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,018] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,027] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,028] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,028] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,028] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,029] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,029] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,029] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,036] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,036] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,037] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,037] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,037] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,038] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,038] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,038] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,039] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,039] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,039] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,040] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,042] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,045] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,045] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,046] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,051] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,054] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,055] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,055] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,055] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,060] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,061] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,061] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,062] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,062] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,063] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,063] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,063] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,064] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,068] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,070] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,071] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,071] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,071] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,072] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,072] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,075] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,076] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,076] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,077] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,077] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,077] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,079] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,084] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,085] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,089] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,090] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,090] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,091] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,091] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,091] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,092] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,092] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,092] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,093] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,093] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,095] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,095] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,095] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,098] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,098] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,099] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,100] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,101] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,102] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,102] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,104] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,104] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,110] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,117] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,118] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,118] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,119] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,119] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,119] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,120] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,124] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,124] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,124] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,125] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,134] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,136] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,138] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,139] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,139] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,139] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,140] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,140] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,140] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,141] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,141] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,141] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,142] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,142] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,145] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,145] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,146] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,151] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,151] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,152] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,152] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,153] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,153] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,154] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,155] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,155] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,156] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,156] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,157] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,157] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,158] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,158] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,158] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,159] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,159] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,160] ERROR Error while accepting connection (kafka.network.Acceptor)
+java.lang.ArithmeticException: / by zero
+	at kafka.network.Acceptor.run(SocketServer.scala:354)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-10 14:16:07,179] INFO [SocketServer brokerId=0] Started 1 acceptor threads (kafka.network.SocketServer)
+[2018-05-10 14:16:07,397] INFO [ExpirationReaper-0-Fetch]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2018-05-10 14:16:07,397] INFO [ExpirationReaper-0-DeleteRecords]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2018-05-10 14:16:07,413] INFO [ExpirationReaper-0-Produce]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2018-05-10 14:16:07,473] INFO [LogDirFailureHandler]: Starting (kafka.server.ReplicaManager$LogDirFailureHandler)
+[2018-05-10 14:16:07,616] INFO Creating /brokers/ids/0 (is it secure? false) (kafka.zk.KafkaZkClient)
+[2018-05-10 14:16:07,620] INFO Result of znode creation at /brokers/ids/0 is: OK (kafka.zk.KafkaZkClient)
+[2018-05-10 14:16:07,622] INFO Registered broker 0 at path /brokers/ids/0 with addresses: ArrayBuffer(EndPoint(Thinkpad,9092,ListenerName(PLAINTEXT),PLAINTEXT)) (kafka.zk.KafkaZkClient)
+[2018-05-10 14:16:07,625] WARN No meta.properties file under dir /tmp/kafka-logs/meta.properties (kafka.server.BrokerMetadataCheckpoint)
+[2018-05-10 14:16:07,802] INFO Creating /controller (is it secure? false) (kafka.zk.KafkaZkClient)
+[2018-05-10 14:16:07,824] INFO [ExpirationReaper-0-topic]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2018-05-10 14:16:07,839] INFO Result of znode creation at /controller is: OK (kafka.zk.KafkaZkClient)
+[2018-05-10 14:16:07,866] INFO Got user-level KeeperException when processing sessionid:0x16349c375240000 type:setData cxid:0x20 zxid:0x1a txntype:-1 reqpath:n/a Error Path:/controller_epoch Error:KeeperErrorCode = NoNode for /controller_epoch (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-05-10 14:16:07,883] INFO [ExpirationReaper-0-Heartbeat]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2018-05-10 14:16:07,894] INFO [ExpirationReaper-0-Rebalance]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2018-05-10 14:16:07,987] INFO [GroupCoordinator 0]: Starting up. (kafka.coordinator.group.GroupCoordinator)
+[2018-05-10 14:16:07,989] INFO [GroupCoordinator 0]: Startup complete. (kafka.coordinator.group.GroupCoordinator)
+[2018-05-10 14:16:08,036] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 38 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2018-05-10 14:16:08,057] INFO [ProducerId Manager 0]: Acquired new producerId block (brokerId:0,blockStartProducerId:0,blockEndProducerId:999) by writing to Zk with path version 1 (kafka.coordinator.transaction.ProducerIdManager)
+[2018-05-10 14:16:08,284] INFO [TransactionCoordinator id=0] Starting up. (kafka.coordinator.transaction.TransactionCoordinator)
+[2018-05-10 14:16:08,315] INFO [TransactionCoordinator id=0] Startup complete. (kafka.coordinator.transaction.TransactionCoordinator)
+[2018-05-10 14:16:08,327] INFO [Transaction Marker Channel Manager 0]: Starting (kafka.coordinator.transaction.TransactionMarkerChannelManager)
+[2018-05-10 14:16:08,756] INFO Got user-level KeeperException when processing sessionid:0x16349c375240000 type:delete cxid:0x35 zxid:0x1d txntype:-1 reqpath:n/a Error Path:/admin/preferred_replica_election Error:KeeperErrorCode = NoNode for /admin/preferred_replica_election (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-05-10 14:16:08,758] INFO [/config/changes-event-process-thread]: Starting (kafka.common.ZkNodeChangeNotificationListener$ChangeEventProcessThread)
+[2018-05-10 14:16:08,829] INFO Kafka version : 1.1.0 (org.apache.kafka.common.utils.AppInfoParser)
+[2018-05-10 14:16:08,830] INFO Kafka commitId : fdcf75ea326b8e07 (org.apache.kafka.common.utils.AppInfoParser)
+[2018-05-10 14:16:08,873] INFO [KafkaServer id=0] started (kafka.server.KafkaServer)
+[2018-05-10 14:16:08,886] INFO Got user-level KeeperException when processing sessionid:0x16349c375240000 type:setData cxid:0x47 zxid:0x1e txntype:-1 reqpath:n/a Error Path:/config/topics/bits Error:KeeperErrorCode = NoNode for /config/topics/bits (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-05-10 14:16:08,887] INFO Got user-level KeeperException when processing sessionid:0x16349c375240000 type:setData cxid:0x48 zxid:0x1f txntype:-1 reqpath:n/a Error Path:/config/topics/bits Error:KeeperErrorCode = NoNode for /config/topics/bits (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-05-10 14:16:08,887] INFO Got user-level KeeperException when processing sessionid:0x16349c375240000 type:setData cxid:0x49 zxid:0x20 txntype:-1 reqpath:n/a Error Path:/config/topics/bits Error:KeeperErrorCode = NoNode for /config/topics/bits (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-05-10 14:16:08,896] INFO Got user-level KeeperException when processing sessionid:0x16349c375240000 type:create cxid:0x4b zxid:0x22 txntype:-1 reqpath:n/a Error Path:/config/topics/bits Error:KeeperErrorCode = NodeExists for /config/topics/bits (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-05-10 14:16:08,908] INFO Topic creation Map(bits-0 -> ArrayBuffer(0)) (kafka.zk.AdminZkClient)
+[2018-05-10 14:16:08,908] INFO Got user-level KeeperException when processing sessionid:0x16349c375240000 type:create cxid:0x4d zxid:0x24 txntype:-1 reqpath:n/a Error Path:/config/topics/bits Error:KeeperErrorCode = NodeExists for /config/topics/bits (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-05-10 14:16:08,930] INFO Topic creation Map(bits-0 -> ArrayBuffer(0)) (kafka.zk.AdminZkClient)
+[2018-05-10 14:16:08,968] INFO Got user-level KeeperException when processing sessionid:0x16349c375240000 type:create cxid:0x4f zxid:0x26 txntype:-1 reqpath:n/a Error Path:/brokers/topics/bits Error:KeeperErrorCode = NodeExists for /brokers/topics/bits (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-05-10 14:16:09,054] INFO [KafkaApi-0] Auto creation of topic bits with 1 partitions and replication factor 1 is successful (kafka.server.KafkaApis)
+[2018-05-10 14:16:09,510] INFO [ReplicaFetcherManager on broker 0] Removed fetcher for partitions bits-0 (kafka.server.ReplicaFetcherManager)
+[2018-05-10 14:16:09,687] INFO [Log partition=bits-0, dir=/tmp/kafka-logs] Loading producer state from offset 0 with message format version 2 (kafka.log.Log)
+[2018-05-10 14:16:09,729] INFO [Log partition=bits-0, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 131 ms (kafka.log.Log)
+[2018-05-10 14:16:09,743] INFO Created log for partition bits-0 in /tmp/kafka-logs with properties {compression.type -> producer, message.format.version -> 1.1-IV0, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, min.insync.replicas -> 1, segment.jitter.ms -> 0, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, segment.ms -> 604800000, segment.bytes -> 1073741824, retention.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760, flush.messages -> 9223372036854775807}. (kafka.log.LogManager)
+[2018-05-10 14:16:09,745] INFO [Partition bits-0 broker=0] No checkpointed highwatermark is found for partition bits-0 (kafka.cluster.Partition)
+[2018-05-10 14:16:09,749] INFO Replica loaded for partition bits-0 with initial high watermark 0 (kafka.cluster.Replica)
+[2018-05-10 14:16:09,753] INFO [Partition bits-0 broker=0] bits-0 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2018-05-10 14:16:09,831] INFO [ReplicaAlterLogDirsManager on broker 0] Added fetcher for partitions List() (kafka.server.ReplicaAlterLogDirsManager)
+[2018-05-10 14:16:36,572] INFO Updated PartitionLeaderEpoch. New: {epoch:0, offset:0}, Current: {epoch:-1, offset:-1} for Partition: bits-0. Cache now contains 0 entries. (kafka.server.epoch.LeaderEpochFileCache)
+[2018-05-10 14:26:07,988] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2018-05-10 14:36:07,988] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2018-05-10 14:46:07,988] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2018-05-10 14:56:07,990] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 2 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2018-05-10 14:58:28,670] INFO Reading configuration from: config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2018-05-10 14:58:28,683] INFO autopurge.snapRetainCount set to 3 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2018-05-10 14:58:28,683] INFO autopurge.purgeInterval set to 0 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2018-05-10 14:58:28,683] INFO Purge task is not scheduled. (org.apache.zookeeper.server.DatadirCleanupManager)
+[2018-05-10 14:58:28,683] WARN Either no config or no quorum defined in config, running  in standalone mode (org.apache.zookeeper.server.quorum.QuorumPeerMain)
+[2018-05-10 14:58:28,725] INFO Reading configuration from: config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2018-05-10 14:58:28,725] INFO Starting server (org.apache.zookeeper.server.ZooKeeperServerMain)
+[2018-05-10 14:58:28,750] INFO Server environment:zookeeper.version=3.4.10-39d3a4f269333c922ed3db283be479f9deacaa0f, built on 03/23/2017 10:13 GMT (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:58:28,750] INFO Server environment:host.name=Thinkpad (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:58:28,751] INFO Server environment:java.version=1.8.0_144 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:58:28,751] INFO Server environment:java.vendor=Oracle Corporation (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:58:28,751] INFO Server environment:java.home=/usr/lib/jvm/java-8-openjdk/jre (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:58:28,751] INFO Server environment:java.class.path=/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/aopalliance-repackaged-2.5.0-b32.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/argparse4j-0.7.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/commons-lang3-3.5.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/connect-api-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/connect-file-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/connect-json-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/connect-runtime-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/connect-transforms-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/guava-20.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/hk2-api-2.5.0-b32.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/hk2-locator-2.5.0-b32.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/hk2-utils-2.5.0-b32.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jackson-annotations-2.9.4.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jackson-core-2.9.4.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jackson-databind-2.9.4.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jackson-jaxrs-base-2.9.4.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jackson-jaxrs-json-provider-2.9.4.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jackson-module-jaxb-annotations-2.9.4.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/javassist-3.20.0-GA.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/javassist-3.21.0-GA.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/javax.annotation-api-1.2.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/javax.inject-1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/javax.inject-2.5.0-b32.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/javax.servlet-api-3.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/javax.ws.rs-api-2.0.1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jersey-client-2.25.1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jersey-common-2.25.1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jersey-container-servlet-2.25.1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jersey-container-servlet-core-2.25.1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jersey-guava-2.25.1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jersey-media-jaxb-2.25.1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jersey-server-2.25.1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jetty-client-9.2.24.v20180105.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jetty-continuation-9.2.24.v20180105.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jetty-http-9.2.24.v20180105.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jetty-io-9.2.24.v20180105.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jetty-security-9.2.24.v20180105.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jetty-server-9.2.24.v20180105.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jetty-servlet-9.2.24.v20180105.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jetty-servlets-9.2.24.v20180105.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jetty-util-9.2.24.v20180105.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jopt-simple-5.0.4.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/kafka_2.11-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/kafka_2.11-1.1.0-sources.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/kafka_2.11-1.1.0-test-sources.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/kafka-clients-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/kafka-log4j-appender-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/kafka-streams-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/kafka-streams-examples-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/kafka-streams-test-utils-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/kafka-tools-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/log4j-1.2.17.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/lz4-java-1.4.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/maven-artifact-3.5.2.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/metrics-core-2.2.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/osgi-resource-locator-1.0.1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/plexus-utils-3.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/reflections-0.9.11.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/rocksdbjni-5.7.3.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/scala-library-2.11.12.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/scala-logging_2.11-3.7.2.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/scala-reflect-2.11.12.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/slf4j-api-1.7.25.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/slf4j-log4j12-1.7.25.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/snappy-java-1.1.7.1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/validation-api-1.1.0.Final.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/zkclient-0.10.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/zookeeper-3.4.10.jar (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:58:28,752] INFO Server environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:58:28,753] INFO Server environment:java.io.tmpdir=/tmp (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:58:28,753] INFO Server environment:java.compiler=<NA> (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:58:28,753] INFO Server environment:os.name=Linux (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:58:28,753] INFO Server environment:os.arch=amd64 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:58:28,753] INFO Server environment:os.version=4.14.17-1-lts (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:58:28,753] INFO Server environment:user.name=daniil (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:58:28,753] INFO Server environment:user.home=/home/daniil (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:58:28,753] INFO Server environment:user.dir=/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:58:28,768] INFO tickTime set to 3000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:58:28,768] INFO minSessionTimeout set to -1 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:58:28,768] INFO maxSessionTimeout set to -1 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:58:28,790] INFO binding to port 0.0.0.0/0.0.0.0:2181 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2018-05-10 14:58:30,186] INFO Reading configuration from: config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2018-05-10 14:58:30,190] INFO autopurge.snapRetainCount set to 3 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2018-05-10 14:58:30,190] INFO autopurge.purgeInterval set to 0 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2018-05-10 14:58:30,190] INFO Purge task is not scheduled. (org.apache.zookeeper.server.DatadirCleanupManager)
+[2018-05-10 14:58:30,190] WARN Either no config or no quorum defined in config, running  in standalone mode (org.apache.zookeeper.server.quorum.QuorumPeerMain)
+[2018-05-10 14:58:30,221] INFO Reading configuration from: config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2018-05-10 14:58:30,222] INFO Starting server (org.apache.zookeeper.server.ZooKeeperServerMain)
+[2018-05-10 14:58:30,241] INFO Server environment:zookeeper.version=3.4.10-39d3a4f269333c922ed3db283be479f9deacaa0f, built on 03/23/2017 10:13 GMT (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:58:30,242] INFO Server environment:host.name=Thinkpad (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:58:30,242] INFO Server environment:java.version=1.8.0_144 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:58:30,242] INFO Server environment:java.vendor=Oracle Corporation (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:58:30,242] INFO Server environment:java.home=/usr/lib/jvm/java-8-openjdk/jre (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:58:30,242] INFO Server environment:java.class.path=/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/aopalliance-repackaged-2.5.0-b32.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/argparse4j-0.7.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/commons-lang3-3.5.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/connect-api-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/connect-file-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/connect-json-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/connect-runtime-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/connect-transforms-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/guava-20.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/hk2-api-2.5.0-b32.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/hk2-locator-2.5.0-b32.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/hk2-utils-2.5.0-b32.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jackson-annotations-2.9.4.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jackson-core-2.9.4.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jackson-databind-2.9.4.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jackson-jaxrs-base-2.9.4.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jackson-jaxrs-json-provider-2.9.4.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jackson-module-jaxb-annotations-2.9.4.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/javassist-3.20.0-GA.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/javassist-3.21.0-GA.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/javax.annotation-api-1.2.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/javax.inject-1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/javax.inject-2.5.0-b32.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/javax.servlet-api-3.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/javax.ws.rs-api-2.0.1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jersey-client-2.25.1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jersey-common-2.25.1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jersey-container-servlet-2.25.1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jersey-container-servlet-core-2.25.1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jersey-guava-2.25.1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jersey-media-jaxb-2.25.1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jersey-server-2.25.1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jetty-client-9.2.24.v20180105.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jetty-continuation-9.2.24.v20180105.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jetty-http-9.2.24.v20180105.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jetty-io-9.2.24.v20180105.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jetty-security-9.2.24.v20180105.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jetty-server-9.2.24.v20180105.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jetty-servlet-9.2.24.v20180105.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jetty-servlets-9.2.24.v20180105.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jetty-util-9.2.24.v20180105.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jopt-simple-5.0.4.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/kafka_2.11-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/kafka_2.11-1.1.0-sources.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/kafka_2.11-1.1.0-test-sources.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/kafka-clients-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/kafka-log4j-appender-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/kafka-streams-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/kafka-streams-examples-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/kafka-streams-test-utils-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/kafka-tools-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/log4j-1.2.17.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/lz4-java-1.4.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/maven-artifact-3.5.2.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/metrics-core-2.2.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/osgi-resource-locator-1.0.1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/plexus-utils-3.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/reflections-0.9.11.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/rocksdbjni-5.7.3.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/scala-library-2.11.12.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/scala-logging_2.11-3.7.2.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/scala-reflect-2.11.12.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/slf4j-api-1.7.25.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/slf4j-log4j12-1.7.25.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/snappy-java-1.1.7.1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/validation-api-1.1.0.Final.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/zkclient-0.10.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/zookeeper-3.4.10.jar (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:58:30,244] INFO Server environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:58:30,244] INFO Server environment:java.io.tmpdir=/tmp (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:58:30,244] INFO Server environment:java.compiler=<NA> (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:58:30,244] INFO Server environment:os.name=Linux (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:58:30,244] INFO Server environment:os.arch=amd64 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:58:30,244] INFO Server environment:os.version=4.14.17-1-lts (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:58:30,245] INFO Server environment:user.name=daniil (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:58:30,245] INFO Server environment:user.home=/home/daniil (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:58:30,245] INFO Server environment:user.dir=/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:58:30,257] INFO tickTime set to 3000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:58:30,257] INFO minSessionTimeout set to -1 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:58:30,258] INFO maxSessionTimeout set to -1 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:58:30,272] INFO binding to port 0.0.0.0/0.0.0.0:2181 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2018-05-10 14:58:30,277] ERROR Unexpected exception, exiting abnormally (org.apache.zookeeper.server.ZooKeeperServerMain)
+java.net.BindException: Адрес уже используется
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:67)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.configure(NIOServerCnxnFactory.java:90)
+	at org.apache.zookeeper.server.ZooKeeperServerMain.runFromConfig(ZooKeeperServerMain.java:117)
+	at org.apache.zookeeper.server.ZooKeeperServerMain.initializeAndRun(ZooKeeperServerMain.java:87)
+	at org.apache.zookeeper.server.ZooKeeperServerMain.main(ZooKeeperServerMain.java:53)
+	at org.apache.zookeeper.server.quorum.QuorumPeerMain.initializeAndRun(QuorumPeerMain.java:116)
+	at org.apache.zookeeper.server.quorum.QuorumPeerMain.main(QuorumPeerMain.java:78)
+[2018-05-10 14:58:40,160] INFO Registered kafka:type=kafka.Log4jController MBean (kafka.utils.Log4jControllerRegistration$)
+[2018-05-10 14:58:40,780] INFO starting (kafka.server.KafkaServer)
+[2018-05-10 14:58:40,781] INFO Connecting to zookeeper on localhost:2181 (kafka.server.KafkaServer)
+[2018-05-10 14:58:40,803] INFO [ZooKeeperClient] Initializing a new session to localhost:2181. (kafka.zookeeper.ZooKeeperClient)
+[2018-05-10 14:58:40,817] INFO Client environment:zookeeper.version=3.4.10-39d3a4f269333c922ed3db283be479f9deacaa0f, built on 03/23/2017 10:13 GMT (org.apache.zookeeper.ZooKeeper)
+[2018-05-10 14:58:40,817] INFO Client environment:host.name=Thinkpad (org.apache.zookeeper.ZooKeeper)
+[2018-05-10 14:58:40,818] INFO Client environment:java.version=1.8.0_144 (org.apache.zookeeper.ZooKeeper)
+[2018-05-10 14:58:40,818] INFO Client environment:java.vendor=Oracle Corporation (org.apache.zookeeper.ZooKeeper)
+[2018-05-10 14:58:40,818] INFO Client environment:java.home=/usr/lib/jvm/java-8-openjdk/jre (org.apache.zookeeper.ZooKeeper)
+[2018-05-10 14:58:40,818] INFO Client environment:java.class.path=/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/aopalliance-repackaged-2.5.0-b32.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/argparse4j-0.7.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/commons-lang3-3.5.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/connect-api-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/connect-file-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/connect-json-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/connect-runtime-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/connect-transforms-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/guava-20.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/hk2-api-2.5.0-b32.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/hk2-locator-2.5.0-b32.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/hk2-utils-2.5.0-b32.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jackson-annotations-2.9.4.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jackson-core-2.9.4.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jackson-databind-2.9.4.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jackson-jaxrs-base-2.9.4.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jackson-jaxrs-json-provider-2.9.4.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jackson-module-jaxb-annotations-2.9.4.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/javassist-3.20.0-GA.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/javassist-3.21.0-GA.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/javax.annotation-api-1.2.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/javax.inject-1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/javax.inject-2.5.0-b32.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/javax.servlet-api-3.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/javax.ws.rs-api-2.0.1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jersey-client-2.25.1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jersey-common-2.25.1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jersey-container-servlet-2.25.1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jersey-container-servlet-core-2.25.1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jersey-guava-2.25.1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jersey-media-jaxb-2.25.1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jersey-server-2.25.1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jetty-client-9.2.24.v20180105.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jetty-continuation-9.2.24.v20180105.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jetty-http-9.2.24.v20180105.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jetty-io-9.2.24.v20180105.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jetty-security-9.2.24.v20180105.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jetty-server-9.2.24.v20180105.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jetty-servlet-9.2.24.v20180105.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jetty-servlets-9.2.24.v20180105.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jetty-util-9.2.24.v20180105.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/jopt-simple-5.0.4.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/kafka_2.11-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/kafka_2.11-1.1.0-sources.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/kafka_2.11-1.1.0-test-sources.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/kafka-clients-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/kafka-log4j-appender-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/kafka-streams-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/kafka-streams-examples-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/kafka-streams-test-utils-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/kafka-tools-1.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/log4j-1.2.17.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/lz4-java-1.4.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/maven-artifact-3.5.2.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/metrics-core-2.2.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/osgi-resource-locator-1.0.1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/plexus-utils-3.1.0.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/reflections-0.9.11.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/rocksdbjni-5.7.3.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/scala-library-2.11.12.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/scala-logging_2.11-3.7.2.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/scala-reflect-2.11.12.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/slf4j-api-1.7.25.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/slf4j-log4j12-1.7.25.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/snappy-java-1.1.7.1.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/validation-api-1.1.0.Final.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/zkclient-0.10.jar:/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0/bin/../libs/zookeeper-3.4.10.jar (org.apache.zookeeper.ZooKeeper)
+[2018-05-10 14:58:40,819] INFO Client environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib (org.apache.zookeeper.ZooKeeper)
+[2018-05-10 14:58:40,819] INFO Client environment:java.io.tmpdir=/tmp (org.apache.zookeeper.ZooKeeper)
+[2018-05-10 14:58:40,819] INFO Client environment:java.compiler=<NA> (org.apache.zookeeper.ZooKeeper)
+[2018-05-10 14:58:40,819] INFO Client environment:os.name=Linux (org.apache.zookeeper.ZooKeeper)
+[2018-05-10 14:58:40,819] INFO Client environment:os.arch=amd64 (org.apache.zookeeper.ZooKeeper)
+[2018-05-10 14:58:40,819] INFO Client environment:os.version=4.14.17-1-lts (org.apache.zookeeper.ZooKeeper)
+[2018-05-10 14:58:40,820] INFO Client environment:user.name=daniil (org.apache.zookeeper.ZooKeeper)
+[2018-05-10 14:58:40,820] INFO Client environment:user.home=/home/daniil (org.apache.zookeeper.ZooKeeper)
+[2018-05-10 14:58:40,820] INFO Client environment:user.dir=/home/daniil/workspace/scala/BitsCounterKafka/kafka_2.11-1.1.0 (org.apache.zookeeper.ZooKeeper)
+[2018-05-10 14:58:40,822] INFO Initiating client connection, connectString=localhost:2181 sessionTimeout=6000 watcher=kafka.zookeeper.ZooKeeperClient$ZooKeeperClientWatcher$@7f3b84b8 (org.apache.zookeeper.ZooKeeper)
+[2018-05-10 14:58:40,842] INFO [ZooKeeperClient] Waiting until connected. (kafka.zookeeper.ZooKeeperClient)
+[2018-05-10 14:58:40,842] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2018-05-10 14:58:40,851] INFO Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2018-05-10 14:58:40,852] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:51740 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2018-05-10 14:58:40,871] INFO Client attempting to establish new session at /0:0:0:0:0:0:0:1:51740 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:58:40,875] INFO Creating new log file: log.1 (org.apache.zookeeper.server.persistence.FileTxnLog)
+[2018-05-10 14:58:40,891] INFO Established session 0x16349eab5d00000 with negotiated timeout 6000 for client /0:0:0:0:0:0:0:1:51740 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-05-10 14:58:40,894] INFO Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x16349eab5d00000, negotiated timeout = 6000 (org.apache.zookeeper.ClientCnxn)
+[2018-05-10 14:58:40,898] INFO [ZooKeeperClient] Connected. (kafka.zookeeper.ZooKeeperClient)
+[2018-05-10 14:58:40,966] INFO Got user-level KeeperException when processing sessionid:0x16349eab5d00000 type:create cxid:0x2 zxid:0x3 txntype:-1 reqpath:n/a Error Path:/brokers Error:KeeperErrorCode = NoNode for /brokers (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-05-10 14:58:40,976] INFO Got user-level KeeperException when processing sessionid:0x16349eab5d00000 type:create cxid:0x6 zxid:0x7 txntype:-1 reqpath:n/a Error Path:/config Error:KeeperErrorCode = NoNode for /config (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-05-10 14:58:40,983] INFO Got user-level KeeperException when processing sessionid:0x16349eab5d00000 type:create cxid:0x9 zxid:0xa txntype:-1 reqpath:n/a Error Path:/admin Error:KeeperErrorCode = NoNode for /admin (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-05-10 14:58:41,315] INFO Got user-level KeeperException when processing sessionid:0x16349eab5d00000 type:create cxid:0x15 zxid:0x15 txntype:-1 reqpath:n/a Error Path:/cluster Error:KeeperErrorCode = NoNode for /cluster (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-05-10 14:58:41,329] INFO Cluster ID = pKTDA4ceTzuCB097aZYuEg (kafka.server.KafkaServer)
+[2018-05-10 14:58:41,368] WARN No meta.properties file under dir /tmp/kafka-logs/meta.properties (kafka.server.BrokerMetadataCheckpoint)
+[2018-05-10 14:58:41,539] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = null
+	advertised.port = null
+	alter.config.policy.class.name = null
+	alter.log.dirs.replication.quota.window.num = 11
+	alter.log.dirs.replication.quota.window.size.seconds = 1
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.id = 0
+	broker.id.generation.enable = true
+	broker.rack = null
+	compression.type = producer
+	connections.max.idle.ms = 600000
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delegation.token.expiry.check.interval.ms = 3600000
+	delegation.token.expiry.time.ms = 86400000
+	delegation.token.master.key = null
+	delegation.token.max.lifetime.ms = 604800000
+	delete.records.purgatory.purge.interval.requests = 1
+	delete.topic.enable = true
+	fetch.purgatory.purge.interval.requests = 1000
+	group.initial.rebalance.delay.ms = 0
+	group.max.session.timeout.ms = 300000
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 1.1-IV0
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+	listeners = null
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = /tmp/kafka-logs
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.flush.start.offset.checkpoint.interval.ms = 60000
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.format.version = 1.1-IV0
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	max.incremental.fetch.session.cache.slots = 1000
+	message.max.bytes = 1000012
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.alter.log.dirs.threads = null
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 1440
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 1
+	offsets.topic.segment.bytes = 104857600
+	password.encoder.cipher.algorithm = AES/CBC/PKCS5Padding
+	password.encoder.iterations = 4096
+	password.encoder.key.length = 128
+	password.encoder.keyfactory.algorithm = null
+	password.encoder.old.secret = null
+	password.encoder.secret = null
+	port = 9092
+	principal.builder.class = null
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.request.bytes = -1
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 10000
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	security.inter.broker.protocol = PLAINTEXT
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = []
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.abort.timed.out.transaction.cleanup.interval.ms = 60000
+	transaction.max.timeout.ms = 900000
+	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+	transaction.state.log.load.buffer.size = 5242880
+	transaction.state.log.min.isr = 1
+	transaction.state.log.num.partitions = 50
+	transaction.state.log.replication.factor = 1
+	transaction.state.log.segment.bytes = 104857600
+	transactional.id.expiration.ms = 604800000
+	unclean.leader.election.enable = false
+	zookeeper.connect = localhost:2181
+	zookeeper.connection.timeout.ms = 6000
+	zookeeper.max.in.flight.requests = 10
+	zookeeper.session.timeout.ms = 6000
+	zookeeper.set.acl = false
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2018-05-10 14:58:41,557] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = null
+	advertised.port = null
+	alter.config.policy.class.name = null
+	alter.log.dirs.replication.quota.window.num = 11
+	alter.log.dirs.replication.quota.window.size.seconds = 1
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.id = 0
+	broker.id.generation.enable = true
+	broker.rack = null
+	compression.type = producer
+	connections.max.idle.ms = 600000
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delegation.token.expiry.check.interval.ms = 3600000
+	delegation.token.expiry.time.ms = 86400000
+	delegation.token.master.key = null
+	delegation.token.max.lifetime.ms = 604800000
+	delete.records.purgatory.purge.interval.requests = 1
+	delete.topic.enable = true
+	fetch.purgatory.purge.interval.requests = 1000
+	group.initial.rebalance.delay.ms = 0
+	group.max.session.timeout.ms = 300000
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 1.1-IV0
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+	listeners = null
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = /tmp/kafka-logs
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.flush.start.offset.checkpoint.interval.ms = 60000
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.format.version = 1.1-IV0
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	max.incremental.fetch.session.cache.slots = 1000
+	message.max.bytes = 1000012
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.alter.log.dirs.threads = null
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 1440
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 1
+	offsets.topic.segment.bytes = 104857600
+	password.encoder.cipher.algorithm = AES/CBC/PKCS5Padding
+	password.encoder.iterations = 4096
+	password.encoder.key.length = 128
+	password.encoder.keyfactory.algorithm = null
+	password.encoder.old.secret = null
+	password.encoder.secret = null
+	port = 9092
+	principal.builder.class = null
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.request.bytes = -1
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 10000
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	security.inter.broker.protocol = PLAINTEXT
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = []
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.abort.timed.out.transaction.cleanup.interval.ms = 60000
+	transaction.max.timeout.ms = 900000
+	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+	transaction.state.log.load.buffer.size = 5242880
+	transaction.state.log.min.isr = 1
+	transaction.state.log.num.partitions = 50
+	transaction.state.log.replication.factor = 1
+	transaction.state.log.segment.bytes = 104857600
+	transactional.id.expiration.ms = 604800000
+	unclean.leader.election.enable = false
+	zookeeper.connect = localhost:2181
+	zookeeper.connection.timeout.ms = 6000
+	zookeeper.max.in.flight.requests = 10
+	zookeeper.session.timeout.ms = 6000
+	zookeeper.set.acl = false
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2018-05-10 14:58:41,619] INFO [ThrottledRequestReaper-Fetch]: Starting (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2018-05-10 14:58:41,620] INFO [ThrottledRequestReaper-Produce]: Starting (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2018-05-10 14:58:41,623] INFO [ThrottledRequestReaper-Request]: Starting (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2018-05-10 14:58:41,680] INFO Log directory '/tmp/kafka-logs' not found, creating it. (kafka.log.LogManager)
+[2018-05-10 14:58:41,698] INFO Loading logs. (kafka.log.LogManager)
+[2018-05-10 14:58:41,713] INFO Logs loading complete in 15 ms. (kafka.log.LogManager)
+[2018-05-10 14:58:41,735] INFO Starting log cleanup with a period of 300000 ms. (kafka.log.LogManager)
+[2018-05-10 14:58:41,740] INFO Starting log flusher with a default period of 9223372036854775807 ms. (kafka.log.LogManager)
+[2018-05-10 14:58:42,547] INFO Awaiting socket connections on 0.0.0.0:9092. (kafka.network.Acceptor)
+[2018-05-10 14:58:42,631] INFO [SocketServer brokerId=0] Started 1 acceptor threads (kafka.network.SocketServer)
+[2018-05-10 14:58:42,679] INFO [ExpirationReaper-0-Produce]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2018-05-10 14:58:42,681] INFO [ExpirationReaper-0-Fetch]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2018-05-10 14:58:42,683] INFO [ExpirationReaper-0-DeleteRecords]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2018-05-10 14:58:42,704] INFO [LogDirFailureHandler]: Starting (kafka.server.ReplicaManager$LogDirFailureHandler)
+[2018-05-10 14:58:42,758] INFO Creating /brokers/ids/0 (is it secure? false) (kafka.zk.KafkaZkClient)
+[2018-05-10 14:58:42,762] INFO Result of znode creation at /brokers/ids/0 is: OK (kafka.zk.KafkaZkClient)
+[2018-05-10 14:58:42,764] INFO Registered broker 0 at path /brokers/ids/0 with addresses: ArrayBuffer(EndPoint(Thinkpad,9092,ListenerName(PLAINTEXT),PLAINTEXT)) (kafka.zk.KafkaZkClient)
+[2018-05-10 14:58:42,767] WARN No meta.properties file under dir /tmp/kafka-logs/meta.properties (kafka.server.BrokerMetadataCheckpoint)
+[2018-05-10 14:58:42,851] INFO [ExpirationReaper-0-topic]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2018-05-10 14:58:42,857] INFO [ExpirationReaper-0-Heartbeat]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2018-05-10 14:58:42,867] INFO [ExpirationReaper-0-Rebalance]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2018-05-10 14:58:42,871] INFO Creating /controller (is it secure? false) (kafka.zk.KafkaZkClient)
+[2018-05-10 14:58:42,879] INFO Result of znode creation at /controller is: OK (kafka.zk.KafkaZkClient)
+[2018-05-10 14:58:42,894] INFO Got user-level KeeperException when processing sessionid:0x16349eab5d00000 type:setData cxid:0x21 zxid:0x1a txntype:-1 reqpath:n/a Error Path:/controller_epoch Error:KeeperErrorCode = NoNode for /controller_epoch (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-05-10 14:58:42,901] INFO [GroupCoordinator 0]: Starting up. (kafka.coordinator.group.GroupCoordinator)
+[2018-05-10 14:58:42,913] INFO [GroupCoordinator 0]: Startup complete. (kafka.coordinator.group.GroupCoordinator)
+[2018-05-10 14:58:42,923] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 2 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2018-05-10 14:58:42,956] INFO [ProducerId Manager 0]: Acquired new producerId block (brokerId:0,blockStartProducerId:0,blockEndProducerId:999) by writing to Zk with path version 1 (kafka.coordinator.transaction.ProducerIdManager)
+[2018-05-10 14:58:42,998] INFO [TransactionCoordinator id=0] Starting up. (kafka.coordinator.transaction.TransactionCoordinator)
+[2018-05-10 14:58:43,021] INFO [TransactionCoordinator id=0] Startup complete. (kafka.coordinator.transaction.TransactionCoordinator)
+[2018-05-10 14:58:43,035] INFO [Transaction Marker Channel Manager 0]: Starting (kafka.coordinator.transaction.TransactionMarkerChannelManager)
+[2018-05-10 14:58:43,168] INFO [/config/changes-event-process-thread]: Starting (kafka.common.ZkNodeChangeNotificationListener$ChangeEventProcessThread)
+[2018-05-10 14:58:43,184] INFO Kafka version : 1.1.0 (org.apache.kafka.common.utils.AppInfoParser)
+[2018-05-10 14:58:43,184] INFO Kafka commitId : fdcf75ea326b8e07 (org.apache.kafka.common.utils.AppInfoParser)
+[2018-05-10 14:58:43,187] INFO [KafkaServer id=0] started (kafka.server.KafkaServer)
+[2018-05-10 14:58:43,221] INFO Got user-level KeeperException when processing sessionid:0x16349eab5d00000 type:delete cxid:0x37 zxid:0x1d txntype:-1 reqpath:n/a Error Path:/admin/preferred_replica_election Error:KeeperErrorCode = NoNode for /admin/preferred_replica_election (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-05-10 14:59:16,368] INFO Got user-level KeeperException when processing sessionid:0x16349eab5d00000 type:setData cxid:0x3e zxid:0x1e txntype:-1 reqpath:n/a Error Path:/config/topics/bits Error:KeeperErrorCode = NoNode for /config/topics/bits (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-05-10 14:59:16,377] INFO Topic creation Map(bits-0 -> ArrayBuffer(0)) (kafka.zk.AdminZkClient)
+[2018-05-10 14:59:16,394] INFO [KafkaApi-0] Auto creation of topic bits with 1 partitions and replication factor 1 is successful (kafka.server.KafkaApis)
+[2018-05-10 14:59:16,543] INFO [ReplicaFetcherManager on broker 0] Removed fetcher for partitions bits-0 (kafka.server.ReplicaFetcherManager)
+[2018-05-10 14:59:16,597] INFO [Log partition=bits-0, dir=/tmp/kafka-logs] Loading producer state from offset 0 with message format version 2 (kafka.log.Log)
+[2018-05-10 14:59:16,650] INFO [Log partition=bits-0, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 77 ms (kafka.log.Log)
+[2018-05-10 14:59:16,659] INFO Created log for partition bits-0 in /tmp/kafka-logs with properties {compression.type -> producer, message.format.version -> 1.1-IV0, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, min.insync.replicas -> 1, segment.jitter.ms -> 0, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, segment.ms -> 604800000, segment.bytes -> 1073741824, retention.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760, flush.messages -> 9223372036854775807}. (kafka.log.LogManager)
+[2018-05-10 14:59:16,661] INFO [Partition bits-0 broker=0] No checkpointed highwatermark is found for partition bits-0 (kafka.cluster.Partition)
+[2018-05-10 14:59:16,667] INFO Replica loaded for partition bits-0 with initial high watermark 0 (kafka.cluster.Replica)
+[2018-05-10 14:59:16,675] INFO [Partition bits-0 broker=0] bits-0 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2018-05-10 14:59:16,702] INFO [ReplicaAlterLogDirsManager on broker 0] Added fetcher for partitions List() (kafka.server.ReplicaAlterLogDirsManager)
+[2018-05-10 14:59:17,354] INFO Updated PartitionLeaderEpoch. New: {epoch:0, offset:0}, Current: {epoch:-1, offset:-1} for Partition: bits-0. Cache now contains 0 entries. (kafka.server.epoch.LeaderEpochFileCache)

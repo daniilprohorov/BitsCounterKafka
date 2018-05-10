@@ -1,10 +1,8 @@
 name := "Producer"
 
 version := "0.1"
-
-organization := "org.example" 
+organization := "daniil" 
 ThisBuild / scalaVersion := "2.11.5"
-
 val flinkVersion = "1.4.2"
 
 val flinkDependencies = Seq(
