@@ -50,7 +50,7 @@ object KafkaConsumer {
                 .trigger(CountTrigger.of(slide))
                 .sum(1)
     }
-    countsWindow(stream, 6, 2).print 
+    countsWindow(stream, 6, 6).print 
     
     env.execute()
   }    
