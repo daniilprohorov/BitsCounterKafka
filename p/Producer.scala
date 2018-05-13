@@ -45,9 +45,8 @@ object KafkaProducer extends App {
      *  тестового задания думаю и так будет работать*/
     
     /** if(System.in.read == 113){
-      producer.send(new ProducerRecord(topic, key.toString, "9"))
-      return ()
-      } */
+     *    ()
+     *  } */
     whl()
     }
 
